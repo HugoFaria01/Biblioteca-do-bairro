@@ -97,3 +97,4 @@ console.log(longos);
 const maiusculas = livros.map(t => t.toUpperCase());
 console.log("--- Títulos em maiúsculas ---");
 console.log(maiusculas);
+
