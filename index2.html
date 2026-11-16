@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="src.js" defer></script>
+    <title>Biblioteca do Bairro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
     
+    <header>
+        <h1>Biblioteca do Bairro</h1>
+    </header>
+
+    <main>
+        <h2 id="resumo-catalogo">Catálogo de Livros</h2>
+
+        <div>
+            <input type="text" id="pesquisa" placeholder="Pesquisar livro...">
+            <button id="btn-filtro">Só disponíveis</button>
+        </div>
+
+        <ul id="lista-livros"></ul>
+
+        <section>
+            <h3>Clube de leitura</h3>
+            <form id="inscricao">
+                <input type="text" name="nome" placeholder="O teu nome">
+                <input type="text" name="email" placeholder="O teu e-mail">
+                <button type="submit">Inscrever-me</button>
+                <p id="mensagem"></p>
+            </form>
+        </section>
+    </main>
+
 </body>
 </html>
